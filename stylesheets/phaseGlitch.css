@@ -1,0 +1,217 @@
+/* line 138, ../sass/phaseGlitch.scss */
+.profilePicture {
+  content: "";
+  background: url("/develFolk-logo.svg");
+  position: relative;
+  width: 132px;
+  height: 132px;
+  background-size: 132px 132px;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+@keyframes phaseGlitch1-anim-1 {
+  0% {
+    clip: rect(121px, 130px, 56px, 18px);
+  }
+  4% {
+    clip: rect(23px, 6px, 106px, 13px);
+  }
+  8% {
+    clip: rect(110px, 22px, 73px, 84px);
+  }
+  12% {
+    clip: rect(14px, 70px, 113px, 104px);
+  }
+  16% {
+    clip: rect(25px, 58px, 26px, 113px);
+  }
+  20% {
+    clip: rect(113px, 51px, 69px, 118px);
+  }
+  24% {
+    clip: rect(48px, 26px, 31px, 24px);
+  }
+  28% {
+    clip: rect(98px, 118px, 116px, 46px);
+  }
+  32% {
+    clip: rect(106px, 129px, 127px, 69px);
+  }
+  36% {
+    clip: rect(98px, 42px, 105px, 24px);
+  }
+  40% {
+    clip: rect(77px, 44px, 92px, 97px);
+  }
+  44% {
+    clip: rect(51px, 57px, 129px, 50px);
+  }
+  48% {
+    clip: rect(13px, 98px, 78px, 38px);
+  }
+  52% {
+    clip: rect(109px, 112px, 129px, 32px);
+  }
+  56% {
+    clip: rect(128px, 21px, 24px, 104px);
+  }
+  60% {
+    clip: rect(94px, 122px, 82px, 14px);
+  }
+  64% {
+    clip: rect(98px, 9px, 40px, 59px);
+  }
+  68% {
+    clip: rect(108px, 19px, 38px, 114px);
+  }
+  72% {
+    clip: rect(86px, 56px, 89px, 104px);
+  }
+  76% {
+    clip: rect(49px, 82px, 111px, 98px);
+  }
+  80% {
+    clip: rect(27px, 83px, 75px, 55px);
+  }
+  84% {
+    clip: rect(94px, 101px, 88px, 47px);
+  }
+  88% {
+    clip: rect(124px, 3px, 56px, 118px);
+  }
+  92% {
+    clip: rect(120px, 108px, 89px, 79px);
+  }
+  96% {
+    clip: rect(90px, 46px, 34px, 69px);
+  }
+  100% {
+    clip: rect(81px, 9px, 112px, 90px);
+  }
+}
+@keyframes phaseGlitch1-anim-2 {
+  0% {
+    clip: rect(6px, 117px, 77px, 76px);
+  }
+  4% {
+    clip: rect(119px, 22px, 63px, 70px);
+  }
+  8% {
+    clip: rect(63px, 36px, 14px, 105px);
+  }
+  12% {
+    clip: rect(25px, 105px, 120px, 108px);
+  }
+  16% {
+    clip: rect(28px, 44px, 36px, 112px);
+  }
+  20% {
+    clip: rect(113px, 114px, 108px, 76px);
+  }
+  24% {
+    clip: rect(8px, 119px, 51px, 70px);
+  }
+  28% {
+    clip: rect(126px, 116px, 109px, 36px);
+  }
+  32% {
+    clip: rect(92px, 52px, 9px, 120px);
+  }
+  36% {
+    clip: rect(8px, 101px, 31px, 104px);
+  }
+  40% {
+    clip: rect(129px, 32px, 25px, 108px);
+  }
+  44% {
+    clip: rect(21px, 51px, 124px, 123px);
+  }
+  48% {
+    clip: rect(94px, 24px, 100px, 126px);
+  }
+  52% {
+    clip: rect(129px, 20px, 31px, 80px);
+  }
+  56% {
+    clip: rect(57px, 13px, 94px, 54px);
+  }
+  60% {
+    clip: rect(93px, 78px, 123px, 42px);
+  }
+  64% {
+    clip: rect(108px, 114px, 70px, 51px);
+  }
+  68% {
+    clip: rect(16px, 74px, 107px, 51px);
+  }
+  72% {
+    clip: rect(82px, 131px, 80px, 14px);
+  }
+  76% {
+    clip: rect(125px, 83px, 35px, 63px);
+  }
+  80% {
+    clip: rect(132px, 13px, 111px, 48px);
+  }
+  84% {
+    clip: rect(88px, 22px, 36px, 23px);
+  }
+  88% {
+    clip: rect(3px, 111px, 93px, 126px);
+  }
+  92% {
+    clip: rect(8px, 54px, 84px, 66px);
+  }
+  96% {
+    clip: rect(3px, 18px, 73px, 10px);
+  }
+  100% {
+    clip: rect(39px, 80px, 2px, 92px);
+  }
+}
+/* line 42, ../sass/phaseGlitch.scss */
+.profilePicture:after, .profilePicture:before {
+  clip: rect(0, 0, 0, 0);
+  display: inline-block;
+  float: left;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+/* line 56, ../sass/phaseGlitch.scss */
+.profilePicture:after {
+  content: "";
+  position: absolute;
+  background: url("/develFolk-logo.svg");
+  width: 132px;
+  height: 132px;
+  background-size: 132px 132px;
+  left: 1.32px;
+  animation: phaseGlitch1-anim-1 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+}
+/* line 67, ../sass/phaseGlitch.scss */
+.profilePicture:before {
+  content: "";
+  position: absolute;
+  background: url("/develFolk-logo.svg");
+  width: 132px;
+  height: 132px;
+  background-size: 132px 132px;
+  left: -1.32px;
+  animation: phaseGlitch1-anim-2 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+}
